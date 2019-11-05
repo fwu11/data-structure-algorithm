@@ -1,2 +1,2 @@
 # data-structure-algorithm-template
-templates for data structures and alogrithms
+cpp templates for data structures and alogrithms
