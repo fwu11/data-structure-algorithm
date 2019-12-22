@@ -13,7 +13,7 @@ public:
 	}
 
 	// union by rank
-	void Union(int x, int y){
+	void join(int x, int y){
 		int f_x = Find(x);
 		int f_y = Find(y);
 
@@ -30,7 +30,7 @@ public:
 	}
 
 	// path compression
-	int Find(int x){
+	int find(int x){
 		if(x != fathers[x]){
 			fathers[x] = Find(fathers[x]);
 		}
