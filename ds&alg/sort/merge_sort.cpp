@@ -1,4 +1,4 @@
-void mergeSort(vector<int> &A, int l, int r, vector<int> &tmp){
+void mergeSort(vector<int>& A, int l, int r, vector<int>& tmp){
 	if(l >= r) return;
 	int mid = l + (r-l)/2;
 	mergeSort(A,l,mid,tmp);
@@ -7,7 +7,7 @@ void mergeSort(vector<int> &A, int l, int r, vector<int> &tmp){
 }
 
 
-void merge(vector<int> &A, int start, int mid, int end, vector<int> &tmp){
+void merge(vector<int>& A, int start, int mid, int end, vector<int>& tmp){
 	int l = start;
 	int r = end;
 	int index = start;
