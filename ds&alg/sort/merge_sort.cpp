@@ -13,7 +13,7 @@ void merge(vector<int> &A, int start, int mid, int end, vector<int> &tmp){
 	int index = start;
 
 	while(l <= mid && r <= end){
-		if(A[l] < A[r]){
+		if(A[l] <= A[r]){
 			tmp[index++] = A[l++];
 		}else{
 			tmp[index++] = A[r++];
